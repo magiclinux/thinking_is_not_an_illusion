@@ -1,6 +1,6 @@
 ## Thinking Isn't an Illusion
 
-This is the official implementation of the paper "**Thinking Isn’t an Illusion: Overcoming the Limitations of Reasoning Models via Tool Augmentations**". You can find our paper on [arXiv](https://arxiv.org/).
+This is the official implementation of the paper "**Thinking Isn’t an Illusion: Overcoming the Limitations of Reasoning Models via Tool Augmentations**". You can find our paper on [arXiv](https://arxiv.org/abs/2507.17699).
 
 Our paper revisits recent claims that Large Reasoning Models (LRMs) fail to outperform standard LLMs on reasoning tasks, as suggested by [Apple's "thinking-illusion" benchmark](https://arxiv.org/pdf/2506.06941). Differing from Apple's study, we introduce **tool augmentation**, including Python interpreter and scratchpads to the LLM/LRM evaluation process. 
 
@@ -43,5 +43,11 @@ On River Crossing and Blocks World, we observe a clear advantage of LRMs over LL
 ## BibTeX
 
 If you find our work useful in your research, please cite the following in your manuscript:
-
-
+```
+@article{syz25,
+      title={Thinking Isn't an Illusion: Overcoming the Limitations of Reasoning Models via Tool Augmentations}, 
+      author={Zhao Song and Song Yue and Jiahao Zhang},
+      year={2025},
+      journal={arXiv preprint arXiv:2507.17699},
+}
+```
